@@ -1,0 +1,12 @@
+[project]
+name = "pythonlangraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "langchain[anthropic]>=1.0.5",
+    "langgraph>=1.0.3",
+    "python-dotenv>=1.2.1",
+]
