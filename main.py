@@ -8,7 +8,8 @@ from typing_extensions import TypedDict
 
 load_dotenv()
 
-llm = init_chat_model("anthropic:claude-sonnet-4-5-20250929")
+llm = init_chat_model("anthropic:claude-sonnet-4-6")
+
 #"anthropic:claude-sonnet-4-5-20250929" also possible as modern alternative
 
 class MessageClassifier(BaseModel):
